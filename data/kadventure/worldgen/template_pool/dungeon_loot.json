@@ -1,0 +1,32 @@
+{
+  "fallback": "empty",
+  "elements": [
+    {
+      "weight": 100,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "kadventure:dungeon/air",
+        "processors": "empty"
+      }
+    },
+    {
+      "weight": 45,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "kadventure:dungeon/generic_loot",
+        "processors": "empty"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "kadventure:dungeon/jackpot",
+        "processors": "empty"
+      }
+    }
+  ]
+}
