@@ -1,4 +1,4 @@
-#> rothal:asmarker
+#> kadventure:asmarker
 
 # Sides
 execute as @e[type=marker,tag=ka.Side,limit=1,sort=random] at @s run function kadventure:dungeon/sort_side
