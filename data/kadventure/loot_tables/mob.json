@@ -17,12 +17,6 @@
                 "type": "loot_table",
                 "name": "kadventure:treasures"
             }
-        ],
-        "conditions": [
-            {
-                "condition": "random_chance",
-                "chance": 0.9
-            }
         ]
       }
     ]
