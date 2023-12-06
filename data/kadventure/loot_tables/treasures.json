@@ -8,17 +8,35 @@
           {
             "type": "minecraft:loot_table",
             "weight": 3,
-            "name": "kadventure:treasure/bronze"
+            "name": "kadventure:treasure/bronze",
+            "conditions": [
+              {
+                "condition": "random_chance",
+                "chance": 0.8
+              }
+            ]
           },
           {
             "type": "minecraft:loot_table",
             "weight": 2,
-            "name": "kadventure:treasure/silver"
+            "name": "kadventure:treasure/silver",
+            "conditions": [
+              {
+                "condition": "random_chance",
+                "chance": 0.5
+              }
+            ]
           },
           {
             "type": "minecraft:loot_table",
             "weight": 1,
-            "name": "kadventure:treasure/gold"
+            "name": "kadventure:treasure/gold",
+            "conditions": [
+              {
+                "condition": "random_chance",
+                "chance": 0.2
+              }
+            ]
           }
         ]
       }
