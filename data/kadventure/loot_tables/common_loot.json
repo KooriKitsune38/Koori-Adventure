@@ -50,8 +50,8 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 8,
-                "max": 16
+                "min": 2,
+                "max": 8
               },
               "add": false
             }
@@ -156,7 +156,7 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "minecraft:iron_sword",
+          "name": "minecraft:stone_sword",
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -191,7 +191,7 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "minecraft:iron_chestplate",
+          "name": "minecraft:leather_chestplate",
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -206,7 +206,7 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "minecraft:iron_helmet",
+          "name": "minecraft:leather_helmet",
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -221,7 +221,7 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "minecraft:iron_leggings",
+          "name": "minecraft:leather_leggings",
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -236,7 +236,7 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "minecraft:iron_boots",
+          "name": "minecraft:leather_boots",
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
