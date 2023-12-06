@@ -90,6 +90,15 @@
           "location": "kadventure:plains_cave_lake",
           "processors": "minecraft:empty"
         }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "kadventure:castle/castle",
+          "processors": "minecraft:empty"
+        }
       }
     ]
   }

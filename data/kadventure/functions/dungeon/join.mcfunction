@@ -3,6 +3,9 @@
 # Tag
 tag @s add ka.Playing
 
+# Spawnpoint
+execute at @e[type=marker,tag=ka.Start,limit=1] run spawnpoint @s
+
 # Effect
 effect clear @s saturation
 effect give @s resistance 5 255 true
