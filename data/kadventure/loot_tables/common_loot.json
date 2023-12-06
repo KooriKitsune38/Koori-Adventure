@@ -171,7 +171,9 @@
           "functions": [
             {
               "function": "minecraft:set_enchantments",
-              "enchantments": {},
+              "enchantments": {
+                "minecraft:infinity": 1
+              },
               "add": true
             },
             {
