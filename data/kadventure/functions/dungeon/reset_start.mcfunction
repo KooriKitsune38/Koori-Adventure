@@ -13,5 +13,3 @@ execute as @e[type=marker,tag=ka.Center] at @s run function kadventure:dungeon/c
 execute at @e[type=marker,tag=ka.Offset,limit=1] positioned ~ ~ ~ run place structure kadventure:dungeon ~ ~ ~
 
 kill @e[type=marker,tag=ka.Offset]
-
-tp @a[tag=ka.Playing] @e[type=marker,limit=1,tag=ka.Center,sort=random]

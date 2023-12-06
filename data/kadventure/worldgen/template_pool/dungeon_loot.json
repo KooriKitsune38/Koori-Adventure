@@ -6,7 +6,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "kadventure:dungeon/air",
+        "location": "kadventure:air",
         "processors": "empty"
       }
     },
@@ -15,16 +15,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "kadventure:dungeon/generic_loot",
-        "processors": "empty"
-      }
-    },
-    {
-      "weight": 20,
-      "element": {
-        "element_type": "minecraft:single_pool_element",
-        "projection": "rigid",
-        "location": "kadventure:dungeon/jackpot",
+        "location": "kadventure:common_loot",
         "processors": "empty"
       }
     }

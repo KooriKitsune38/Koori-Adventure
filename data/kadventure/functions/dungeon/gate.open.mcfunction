@@ -1,4 +1,4 @@
-#> k.gen:misc/gate.open
+#> kadventure:dungeon/gate.open
 
 # Fill air
 fill ~1 ~ ~1 ~-1 ~3 ~-1 air replace iron_bars
