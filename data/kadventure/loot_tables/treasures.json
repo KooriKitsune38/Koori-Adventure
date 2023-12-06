@@ -1,0 +1,44 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "weight": 10,
+            "name": "kadventure:treasure/bronze",
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.8
+              }
+            ]
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 5,
+            "name": "kadventure:treasure/silver",
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.6
+              }
+            ]
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 2,
+            "name": "kadventure:treasure/gold",
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
