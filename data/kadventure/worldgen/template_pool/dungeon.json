@@ -1,150 +1,147 @@
 {
-    "fallback": "minecraft:empty",
-    "elements": [
-      {
-        "weight": 10,
-        "element": {
-          "element_type": "minecraft:single_pool_element",
-          "projection": "rigid",
-          "location": "kadventure:plains_straight",
-          "processors": "minecraft:empty"
-        }
-      },
-      {
-        "weight": 10,
-        "element": {
-          "element_type": "minecraft:single_pool_element",
-          "projection": "rigid",
-          "location": "kadventure:sand_straight",
-          "processors": "minecraft:empty"
-        }
-      },
-      {
-        "weight": 6,
-        "element": {
-          "element_type": "minecraft:single_pool_element",
-          "projection": "rigid",
-          "location": "kadventure:plains_corner",
-          "processors": "minecraft:empty"
-        }
-      },
-      {
-        "weight": 6,
-        "element": {
-          "element_type": "minecraft:single_pool_element",
-          "projection": "rigid",
-          "location": "kadventure:sand_corner",
-          "processors": "minecraft:empty"
-        }
-      },
-      {
-        "weight": 6,
-        "element": {
-          "element_type": "minecraft:single_pool_element",
-          "projection": "rigid",
-          "location": "kadventure:plains_4ways",
-          "processors": "minecraft:empty"
-        }
-      },
-      {
-        "weight": 6,
-        "element": {
-          "element_type": "minecraft:single_pool_element",
-          "projection": "rigid",
-          "location": "kadventure:sand_4ways",
-          "processors": "minecraft:empty"
-        }
-      },
-      {
-        "weight": 6,
-        "element": {
-          "element_type": "minecraft:single_pool_element",
-          "projection": "rigid",
-          "location": "kadventure:plains_double",
-          "processors": "minecraft:empty"
-        }
-      },
-      {
-        "weight": 6,
-        "element": {
-          "element_type": "minecraft:single_pool_element",
-          "projection": "rigid",
-          "location": "kadventure:sand_double",
-          "processors": "minecraft:empty"
-        }
-      },
-      {
-        "weight": 6,
-        "element": {
-          "element_type": "minecraft:single_pool_element",
-          "projection": "rigid",
-          "location": "kadventure:sand_to_plains",
-          "processors": "minecraft:empty"
-        }
-      },
-      {
-        "weight": 6,
-        "element": {
-          "element_type": "minecraft:single_pool_element",
-          "projection": "rigid",
-          "location": "kadventure:cave_to_plains",
-          "processors": "minecraft:empty"
-        }
-      },
-      {
-        "weight": 6,
-        "element": {
-          "element_type": "minecraft:single_pool_element",
-          "projection": "rigid",
-          "location": "kadventure:cave_straight",
-          "processors": "minecraft:empty"
-        }
-      },
-      {
-        "weight": 6,
-        "element": {
-          "element_type": "minecraft:single_pool_element",
-          "projection": "rigid",
-          "location": "kadventure:cave_corner",
-          "processors": "minecraft:empty"
-        }
-      },
-      {
-        "weight": 6,
-        "element": {
-          "element_type": "minecraft:single_pool_element",
-          "projection": "rigid",
-          "location": "kadventure:cave_double",
-          "processors": "minecraft:empty"
-        }
-      },
-      {
-        "weight": 6,
-        "element": {
-          "element_type": "minecraft:single_pool_element",
-          "projection": "rigid",
-          "location": "kadventure:cave_4ways",
-          "processors": "minecraft:empty"
-        }
-      },
-      {
-        "weight": 4,
-        "element": {
-          "element_type": "minecraft:single_pool_element",
-          "projection": "rigid",
-          "location": "kadventure:plains_cave_lake",
-          "processors": "minecraft:empty"
-        }
-      },
-      {
-        "weight": 4,
-        "element": {
-          "element_type": "minecraft:single_pool_element",
-          "projection": "rigid",
-          "location": "kadventure:castle/castle",
-          "processors": "minecraft:empty"
-        }
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 10,
+      "element": {
+        "projection": "rigid",
+        "element_type": "list_pool_element",
+        "elements": [
+          {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "location": "kadventure:plains_straight",
+            "processors": "minecraft:empty"
+          },
+          {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "location": "kadventure:cave_straight",
+            "processors": "minecraft:empty"
+          },
+          {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "location": "kadventure:sand_straight",
+            "processors": "minecraft:empty"
+          }
+        ]
       }
-    ]
-  }
-  
+    },
+    {
+      "weight": 6,
+      "element": {
+        "projection": "rigid",
+        "element_type": "list_pool_element",
+        "elements": [
+          {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "location": "kadventure:plains_corner",
+            "processors": "minecraft:empty"
+          },
+          {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "location": "kadventure:sand_corner",
+            "processors": "minecraft:empty"
+          },
+
+          {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "location": "kadventure:plains_4ways",
+            "processors": "minecraft:empty"
+          },
+          {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "location": "kadventure:sand_4ways",
+            "processors": "minecraft:empty"
+          },
+          {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "location": "kadventure:plains_double",
+            "processors": "minecraft:empty"
+          },
+          {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "location": "kadventure:sand_double",
+            "processors": "minecraft:empty"
+          },
+          {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "location": "kadventure:sand_to_plains",
+            "processors": "minecraft:empty"
+          },
+          {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "location": "kadventure:cave_to_plains",
+            "processors": "minecraft:empty"
+          },
+          {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "location": "kadventure:cave_corner",
+            "processors": "minecraft:empty"
+          },
+          {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "location": "kadventure:cave_double",
+            "processors": "minecraft:empty"
+          },
+          {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "location": "kadventure:cave_4ways",
+            "processors": "minecraft:empty"
+          }
+        ]
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "projection": "rigid",
+        "element_type": "list_pool_element",
+        "elements": [
+          {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "location": "kadventure:sand_to_plains",
+            "processors": "minecraft:empty"
+          },
+          {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "location": "kadventure:cave_to_plains",
+            "processors": "minecraft:empty"
+          }
+        ]
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "kadventure:plains_cave_lake",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "kadventure:castle/castle",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}
