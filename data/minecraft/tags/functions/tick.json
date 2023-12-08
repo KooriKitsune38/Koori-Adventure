@@ -1,5 +1,6 @@
 {
     "values": [
-        "kadventure:main"
+        "kadventure:main",
+        "kbosses:main"
     ]
 }

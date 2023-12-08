@@ -1,5 +1,6 @@
 {
     "values": [
-        "kadventure:reload"
+        "kadventure:reload",
+        "kbosses:reload"
     ]
 }
