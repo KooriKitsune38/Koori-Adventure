@@ -2,6 +2,7 @@
 
 # Kill
 kill @s
+kill @e[type=marker,tag=kb.MagmaCenter]
 
 # Title
 title @a title {"text": "Magma Boss Felled","bold":true,"color":"red"}
