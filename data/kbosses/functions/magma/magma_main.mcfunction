@@ -1,5 +1,9 @@
 #> kbosses:magma/magma_main
 
+# Tag Player
+tag @a[distance=..20,gamemode=!spectator,gamemode=!creative] add ka.Playing
+tag @a[distance=..20,gamemode=!spectator,gamemode=!creative] add ka.BossFight
+
 # Scoreboards
 #> Add Score
 scoreboard players add @s[scores={kb.Magma=1..}] kb.Magma 1
