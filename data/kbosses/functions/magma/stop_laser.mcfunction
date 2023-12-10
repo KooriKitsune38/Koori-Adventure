@@ -1,7 +1,7 @@
 #> kbosses:magma/stop_laser
 
 # Player
-execute as @a[distance=..1.5] at @s run function kbosses:magma/laser
+execute as @a[distance=..1] at @s run function kbosses:magma/laser
 
 # Tag
 tag @s remove .targetSelected

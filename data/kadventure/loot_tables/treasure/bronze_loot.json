@@ -37,8 +37,8 @@
     },
     {
       "rolls": {
-        "min": 8,
-        "max": 12
+        "min": 10,
+        "max": 16
       },
       "entries": [
         {
@@ -51,21 +51,21 @@
       "rolls": {
         "type": "minecraft:uniform",
         "min": 2,
-        "max": 6
+        "max": 4
       },
       "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "minecraft:diamond",
+          "name": "minecraft:iron_ingot",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 3,
-                "max": 6
+                "min": 6,
+                "max": 12
               },
               "add": false
             }
@@ -84,6 +84,40 @@
                 "max": 8
               },
               "add": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 3,
+        "max": 5
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:apple",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bread",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 6,
+                "max": 8
+              }
             }
           ]
         }

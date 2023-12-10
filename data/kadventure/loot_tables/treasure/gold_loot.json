@@ -51,8 +51,8 @@
     },
     {
       "rolls": {
-        "min": 12,
-        "max": 16
+        "min": 24,
+        "max": 30
       },
       "entries": [
         {
@@ -70,6 +70,22 @@
         {
           "type": "minecraft:item",
           "weight": 10,
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 20,
+                "max": 26
+              },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
           "name": "minecraft:diamond_sword",
           "functions": [
             {
@@ -77,7 +93,7 @@
               "levels": {
                 "type": "minecraft:uniform",
                 "min": 20,
-                "max": 39
+                "max": 26
               },
               "treasure": true
             }
@@ -93,7 +109,7 @@
               "levels": {
                 "type": "minecraft:uniform",
                 "min": 20,
-                "max": 39
+                "max": 26
               },
               "treasure": true
             }
@@ -109,7 +125,7 @@
               "levels": {
                 "type": "minecraft:uniform",
                 "min": 20,
-                "max": 39
+                "max": 26
               },
               "treasure": true
             }
@@ -125,7 +141,7 @@
               "levels": {
                 "type": "minecraft:uniform",
                 "min": 20,
-                "max": 39
+                "max": 26
               },
               "treasure": true
             }
@@ -141,7 +157,7 @@
               "levels": {
                 "type": "minecraft:uniform",
                 "min": 20,
-                "max": 39
+                "max": 26
               },
               "treasure": true
             }
@@ -150,16 +166,23 @@
       ]
     },
     {
-      "rolls": {
-        "type": "minecraft:uniform",
-        "min": 2,
-        "max": 6
-      },
+      "rolls": 1,
       "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 5,
+          "weight": 1,
+          "name": "minecraft:netherite_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
           "name": "minecraft:enchanted_golden_apple",
           "functions": [
             {
@@ -172,20 +195,44 @@
               "add": false
             }
           ]
-        },
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.6
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 5,
+        "max": 7
+      },
+      "entries": [
         {
           "type": "minecraft:item",
-          "weight": 15,
-          "name": "minecraft:gold_ingot",
+          "name": "minecraft:golden_apple",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_beef",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
                 "min": 12,
-                "max": 20
-              },
-              "add": false
+                "max": 16
+              }
             }
           ]
         }

@@ -7,12 +7,12 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "weight": 10,
+            "weight": 50,
             "name": "kadventure:treasure/bronze"
           },
           {
             "type": "minecraft:loot_table",
-            "weight": 5,
+            "weight": 20,
             "name": "kadventure:treasure/silver"
           },
           {

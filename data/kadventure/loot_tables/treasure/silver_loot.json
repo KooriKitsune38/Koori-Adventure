@@ -51,8 +51,8 @@
     },
     {
       "rolls": {
-        "min": 8,
-        "max": 12
+        "min": 12,
+        "max": 26
       },
       "entries": [
         {
@@ -70,7 +70,7 @@
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "minecraft:diamond_sword",
+          "name": "minecraft:iron_sword",
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -86,22 +86,58 @@
         {
           "type": "minecraft:item",
           "weight": 8,
-          "name": "minecraft:diamond_boots"
+          "name": "minecraft:iron_boots",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 12,
+                "max": 20
+              }
+            }
+          ]
         },
         {
           "type": "minecraft:item",
           "weight": 8,
-          "name": "minecraft:diamond_chestplate"
+          "name": "minecraft:iron_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 12,
+                "max": 20
+              }
+            }
+          ]
         },
         {
           "type": "minecraft:item",
           "weight": 8,
-          "name": "minecraft:diamond_leggings"
+          "name": "minecraft:iron_leggings",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 12,
+                "max": 20
+              }
+            }
+          ]
         },
         {
           "type": "minecraft:item",
           "weight": 8,
-          "name": "minecraft:diamond_helmet"
+          "name": "minecraft:iron_helmet",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 12,
+                "max": 20
+              }
+            }
+          ]
         }
       ]
     },
@@ -142,6 +178,40 @@
                 "max": 12
               },
               "add": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 5,
+        "max": 7
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:apple",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_beef",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 6,
+                "max": 8
+              }
             }
           ]
         }
