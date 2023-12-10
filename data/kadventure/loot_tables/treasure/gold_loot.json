@@ -9,17 +9,6 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:potion",
-          "functions": [
-            {
-              "function": "minecraft:set_potion",
-              "id": "minecraft:luck"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "weight": 2,
           "name": "minecraft:potion",
           "functions": [
