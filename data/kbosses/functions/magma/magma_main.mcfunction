@@ -2,7 +2,7 @@
 
 # Tag Player
 tag @a[distance=..20,gamemode=!spectator,gamemode=!creative] add ka.Playing
-tag @a[distance=..20,gamemode=!spectator,gamemode=!creative] add ka.BossFight
+tag @a[distance=..20,gamemode=!spectator,gamemode=!creative] add kb.BossFight
 
 # Scoreboards
 #> Add Score
