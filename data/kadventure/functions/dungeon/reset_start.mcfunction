@@ -15,7 +15,7 @@ execute at @e[type=marker,tag=ka.Offset,limit=1] positioned ~ ~ ~ run place stru
 kill @e[type=marker,tag=ka.Offset]
 
 # Tp to Spawn
-tp @a[tag=ka.Playing] @e[type=marker,tag=ka.Start,limit=1,sort=nearest]
+tp @a[tag=ka.Playing,tag=!kb.BossFight] @e[type=marker,tag=ka.Start,limit=1,sort=nearest]
 
 # Title
 title @a title {"text":"Dungeon Reset!","color":"green","bold":true}
