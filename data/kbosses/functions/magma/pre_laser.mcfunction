@@ -5,6 +5,7 @@ execute unless entity @s[tag=.targetSelected] run tag @a[distance=..50,limit=1,s
 
 # Tag
 execute if entity @p[tag=.targetSelected,distance=..50] run tag @s add .targetSelected
+execute if score @s kb.Magma matches 300.. run tag @s remove kb.Laser
 
 # Sound
 execute if score @s kb.Magma matches ..200 run playsound block.beacon.activate hostile @a ~ ~ ~ 1 .1
