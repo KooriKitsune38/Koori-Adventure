@@ -8,7 +8,7 @@ kill @e[type=marker,tag=kb.MagmaCenter]
 title @a[distance=..40] title {"text": "Magma Boss Felled","bold":true,"color":"red"}
 
 # Playsound
-execute at @a run playsound ui.toast.challenge_complete player @a ~ ~ ~ 1 1.5
+execute at @a run playsound ui.toast.challenge_complete player @a[distance=..40] ~ ~ ~ 1 1.5
 
 # Remove fire
 fill ~-20 ~-10 ~-20 ~20 ~1 ~20 air replace fire

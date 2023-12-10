@@ -7,7 +7,7 @@ execute as @e[type=marker] at @s run function kadventure:asmarker
 execute as @a at @s run function kadventure:as_everyone
 
 # As Entities
-execute as @e[type=!marker,tag=ka.Entity] run data merge entity @s {active_effects:[{id:"minecraft:resistance",amplifier:1b,duration:9999999,show_particles:false},{id:"minecraft:fire_resistance",duration:9999999,show_particles:false}],DeathLootTable:"kadventure:mob"}
+execute as @e[type=!marker,tag=ka.Entity] run data merge entity @s {active_effects:[{id:"minecraft:resistance",amplifier:0b,duration:9999999,show_particles:false},{id:"minecraft:fire_resistance",duration:9999999,show_particles:false}],DeathLootTable:"kadventure:mob"}
 
 # Scoreboard
 #> Reset Dungeon
