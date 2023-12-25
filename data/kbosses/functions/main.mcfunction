@@ -1,3 +1,6 @@
+# As Eeryone
+execute as @a at @s run function kbosses:as_everyone
+
 # Execute as item
 execute as @e[type=item_display] at @s run function kbosses:as_idisplay
 
