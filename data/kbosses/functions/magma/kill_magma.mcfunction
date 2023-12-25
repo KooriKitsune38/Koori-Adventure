@@ -23,6 +23,3 @@ experience add @a[distance=..30] 10000 points
 particle flash ~ ~ ~ 1 1 1 0 10 normal
 particle flame ~ ~ ~ .5 .5 .5 0.01 200 normal
 particle ash ~ ~ ~ .1 .1 .1 0 10 normal
-
-# Set bossbar
-bossbar remove kbosses:magma_boss
