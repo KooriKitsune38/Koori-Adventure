@@ -8,7 +8,7 @@ kill @e[type=marker,tag=kb.MagmaCenter]
 title @a[distance=..40] title {"text": "Magma Boss Felled","bold":true,"color":"red"}
 
 # Tag
-tag @a[distance=..20] remove kb.BossFight
+tag @a[distance=..40] remove kb.BossFight
 
 # Playsound
 execute at @a run playsound ui.toast.challenge_complete player @a[distance=..40,tag=kb.BossFight] ~ ~ ~ 1 1.5
