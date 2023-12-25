@@ -12,9 +12,9 @@ execute at @a run playsound ui.toast.challenge_complete player @a[distance=..40,
 
 # Loot
 #> experience
-experience add @a[distance=..30] 10000 points
+experience add @a[distance=..30,tag=kb.BossFight] 10000 points
 #> Loot
-loot give @a loot kbosses:magma_drop
+loot give @a[distance=..30,tag=kb.BossFight] loot kbosses:magma_drop
 
 # Tag
 tag @a[distance=..40] remove kb.BossFight
