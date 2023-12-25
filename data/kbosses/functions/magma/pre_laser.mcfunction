@@ -1,7 +1,7 @@
 #> kbosses:magma/pre_laser
 
 # Tag Random Player
-execute unless entity @s[tag=.targetSelected] run tag @a[distance=..50,limit=1,sort=random] add kb.Target
+execute unless entity @a[tag=.targetSelected,distance=..50] run tag @a[distance=..50,limit=1,sort=random] add kb.Target
 
 # Tag
 execute if entity @p[tag=.targetSelected,distance=..50] run tag @s add .targetSelected
