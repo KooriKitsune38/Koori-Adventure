@@ -1,7 +1,7 @@
 #> kadventure:as_everyone
 
 # Y Level
-execute store result score .playerY kb.Values run data get entity @s Pos[1]
+execute store result score .playerY ka.Values run data get entity @s Pos[1]
 execute if score .playerY ka.Values matches ..0 run function kadventure:leave
 
 execute if entity @s[tag=ka.Playing] run scoreboard players enable @s Leave
