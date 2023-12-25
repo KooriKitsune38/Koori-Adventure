@@ -15,7 +15,7 @@ execute if entity @s[tag=kb.Puke] run function kbosses:magma/charge_puke
 execute if entity @s[tag=kb.Laser] run function kbosses:magma/pre_laser
 
 # Select Attack
-execute unless entity @s[scores={kb.Magma=0..}] if predicate kbosses:c01 run function kbosses:magma/select_attack
+execute unless entity @s[scores={kb.Magma=0..}] if predicate kbosses:c10 run function kbosses:magma/select_attack
 
 # Teleport
 execute if predicate kbosses:c001 unless entity @s[tag=kb.MagmaSummon] run function kbosses:magma/sort_teleport
