@@ -10,5 +10,5 @@ loot give @s loot kadventure:treasure/gold_loot
 clear @s player_head{ka.Treasure:"gold"} 1
 
 # Sound & Particles
-playsound entity.ender_dragon.death player @a ~ ~ ~ 0.5 1
+playsound minecraft:block.respawn_anchor.deplete ambient @a ~ ~ ~ 1 1.5
 particle totem_of_undying ~ ~ ~ .1 .1 .1 0.5 20 force

@@ -12,4 +12,4 @@ execute as @e[type=!marker,tag=ka.Entity] run data merge entity @s {active_effec
 # Scoreboard
 #> Reset Dungeon
 scoreboard players add .resetTimer ka.Values 1
-execute if score .resetTimer ka.Values matches 12000.. run function kadventure:dungeon/reset_start
+execute if score .resetTimer ka.Values matches 6000.. run function kadventure:dungeon/reset_start

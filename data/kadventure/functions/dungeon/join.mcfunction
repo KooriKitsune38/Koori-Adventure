@@ -2,6 +2,7 @@
 
 # Tag
 tag @s add ka.Playing
+team join ka.Playing @s
 
 # Spawnpoint
 execute at @e[type=marker,tag=ka.Start,limit=1] run spawnpoint @s
