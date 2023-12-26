@@ -12,4 +12,4 @@ particle cloud ~ ~1 ~ .5 .5 .5 1 20 normal
 playsound entity.puffer_fish.blow_out player @a ~ ~ ~ 1 1
 
 # Tp
-tp @s ^ ^ ^-1
+tp @s ^ ^ ^-1.5
