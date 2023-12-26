@@ -10,8 +10,12 @@ team add ka.Playing {"text": "Adventuring","color":"gold"}
 team modify ka.Playing prefix [{"text": "Adventuring","color":"gold"},{"text":" - "}]
 team modify ka.Playing friendlyFire true
 
-team add ka.Lobby {"text": "Lobby","color":"aqua"}
+team add ka.Lobby {"text": "Lobby","color":"green"}
 team modify ka.Lobby prefix [{"text": "Lobby","color":"green"},{"text":" - "}]
 team modify ka.Lobby friendlyFire false
+
+team add ka.Arena {"text": "Arena","color":"gray"}
+team modify ka.Arena prefix [{"text": "Arena","color":"gray"},{"text":" - "}]
+team modify ka.Arena friendlyFire true
 
 tellraw @a {"text":"Koori Adventures","color": "lime"}
