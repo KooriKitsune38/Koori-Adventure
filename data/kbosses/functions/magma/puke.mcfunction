@@ -9,7 +9,7 @@ particle lava ~ ~ ~ 1 1 1 1 50 normal
 particle flash ~ ~ ~
 
 # Tag Random Player
-tag @a[distance=..50,limit=1,sort=random] add kb.Target
+function kbosses:select_target
 
 # Puke
 summon snowball ~ ~ ~ {HasVisualFire:1b,Item:{id:"minecraft:pufferfish",Count:1b},Tags:[kb.MagmaPuke,.temp],Passengers:[{id:"minecraft:marker",Tags:[kb.MagmaPukeMarker]}]}

@@ -1,10 +1,7 @@
 #> kbosses:magma/pre_laser
 
 # Tag Random Player
-execute unless entity @s[tag=.targetSelected] run tag @a[distance=..50,limit=1,sort=random] add kb.Target
-
-# Tag
-execute if entity @p[tag=kb.Target,distance=..50] run tag @s add .targetSelected
+function kbosses:select_target
 
 # Sound
 execute if score @s kb.Magma matches ..200 run playsound block.beacon.activate hostile @a ~ ~ ~ 1 .1
