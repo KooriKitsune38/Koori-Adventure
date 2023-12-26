@@ -1,6 +1,7 @@
 #> kbosses:magma/laser
 
 # Sound
+stopsound @s hostile
 playsound block.respawn_anchor.deplete master @a ~ ~ ~ 2 1
 
 # Particle
