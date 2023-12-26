@@ -4,4 +4,6 @@
 execute if entity @s[team=!ka.Arena] run function kadventure:arena/join_arena
 
 # If team, leave arena
-execute if entity @s[team=ka.Arena] run function kadventure:arena/leave_arena
+execute if entity @s[team=ka.Arena,tag=!.temp] run function kadventure:arena/leave_arena
+
+tag @s remove .temp

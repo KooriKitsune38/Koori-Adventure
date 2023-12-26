@@ -2,6 +2,7 @@
 
 # Join team
 team join ka.Arena @s
+tag @s add .temp
 
 # Effects
 effect give @s resistance 1 255 true
