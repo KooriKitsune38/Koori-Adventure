@@ -12,7 +12,7 @@ execute if score @s kb.Magma matches 60.. run particle smoke ~ ~ ~ .05 .05 0.5 0
 execute if score @s kb.Magma matches 120.. run particle flame ~ ~ ~ .1 .1 .1 0 1 normal
 
 # Sound
-execute if entity @p[distance=..1] run playsound entity.fox.teleport hostile @a ~ ~ ~ .5 .5
+execute if entity @p[distance=..2] run playsound entity.fox.teleport hostile @a ~ ~ ~ .5 .5
 
 # Repeat
 execute unless score .ray kb.Ray matches 100.. if block ~ ~ ~ #kbosses:air unless entity @p[distance=..1] positioned ^ ^ ^.3 run function kbosses:magma/charge_laser
