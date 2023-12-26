@@ -1,9 +1,5 @@
 #> kbosses:magma/magma_main
 
-# Tag Player
-tag @a[distance=..20,gamemode=!spectator,gamemode=!creative] add ka.Playing
-tag @a[distance=..20,gamemode=!spectator,gamemode=!creative] add kb.BossFight
-
 # Scoreboards
 #> Add Score
 scoreboard players add @s[scores={kb.Magma=1..}] kb.Magma 1
@@ -14,8 +10,11 @@ execute if entity @s[tag=kb.Puke] run function kbosses:magma/charge_puke
 #> Magma Laser
 execute if entity @s[tag=kb.Laser] run function kbosses:magma/pre_laser
 
+#> Remove Scoreboard if no attack selected
+execute if entity @s[tag=!kb.Attacking,scores={kb.Magma=1..}] run function kbosses:stop_attack
+
 # Select Attack
-execute unless entity @s[scores={kb.Magma=0..}] if predicate kbosses:c10 run function kbosses:magma/select_attack
+execute unless entity @s[scores={kb.Magma=0..}] if predicate kbosses:c01 run function kbosses:magma/select_attack
 
 # Teleport
 execute if predicate kbosses:c001 unless entity @s[tag=kb.MagmaSummon] run function kbosses:magma/sort_teleport

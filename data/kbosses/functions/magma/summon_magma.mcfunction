@@ -6,3 +6,7 @@ execute as @e[type=item_display,distance=..1,limit=1,sort=nearest] run function 
 
 # Title
 title @a[distance=..30] title {"text":"Magma Boss Summoned","color":"red","bold": true}
+
+# Tag Player
+tag @a[distance=..20,gamemode=!spectator,gamemode=!creative] add ka.Playing
+tag @a[distance=..20,gamemode=!spectator,gamemode=!creative] add kb.BossFight

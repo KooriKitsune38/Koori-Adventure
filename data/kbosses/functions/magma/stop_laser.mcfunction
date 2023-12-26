@@ -3,15 +3,8 @@
 # Player
 execute as @a[distance=..1] at @s run function kbosses:magma/laser
 
-# Tag
-tag @s remove .targetSelected
-tag @s remove kb.Laser
-
-# Reset Scoreboard
-scoreboard players reset @s kb.Magma
-
-# Remove target
-tag @p[tag=kb.Target,distance=..50,sort=nearest] remove kb.Target
+# Stop attack stuff
+function kbosses:stop_attack
 
 # Particle
 execute align xyz unless block ~ ~ ~ air run playsound entity.generic.explode hostile @a ~ ~ ~ 1 .5
