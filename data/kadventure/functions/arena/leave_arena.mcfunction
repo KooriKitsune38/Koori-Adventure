@@ -1,4 +1,4 @@
-#> kadventure:arena/join_arena
+#> kadventure:arena/leave_arena
 
 # Join team
 team join ka.Lobby @s
