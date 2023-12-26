@@ -1,9 +1,5 @@
 #> kbosses:magma/start_summon
 
-# Tag
-tag @s add kb.MagmaSummon
-tag @s add kb.StopParticles
-
 # Scoreboard
 scoreboard players set @s kb.Magma 1
 
