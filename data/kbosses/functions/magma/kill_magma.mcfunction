@@ -2,7 +2,8 @@
 
 # Kill
 kill @s
-kill @e[type=marker,tag=kb.MagmaCenter]
+kill @e[type=marker,tag=kb.MagmaCenter,distance=..40,limit=1,sort=nearest]
+kill @e[type=area_effect_cloud,distance=..40,tag=kb.MagmaAEC]
 
 # Title
 title @a[distance=..40] title {"text": "Magma Boss Felled","bold":true,"color":"red"}
