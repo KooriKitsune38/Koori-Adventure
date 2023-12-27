@@ -15,7 +15,7 @@ execute at @e[type=marker,tag=ka.Offset,limit=1] positioned ~ ~ ~ run place stru
 kill @e[type=marker,tag=ka.Offset]
 
 # Tp to Spawn
-tp @a[tag=ka.Playing,predicate=!kbosses:around_boss] @e[type=marker,tag=ka.Start,limit=1,sort=nearest]
+execute as @a[tag=ka.Playing,predicate=!kbosses:around_boss] at @s run function kadventure:leave
 
 # Title
 title @a title {"text":"Dungeon Reset!","color":"green","bold":true}
