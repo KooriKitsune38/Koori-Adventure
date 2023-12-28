@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "trigger":{
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": "player"
+            }
+        }
+    },
+    "rewards":{
+        "loot": [
+            "kadventure:coin"
+        ]
+    }
+}
