@@ -10,7 +10,7 @@
                     "input_predicate": {
                         "predicate_type": "random_block_match",
                         "block": "minecraft:barrel",
-                        "probability": 0.75
+                        "probability": 0.60
                     },
                     "output_state": {
                         "Name": "air"
