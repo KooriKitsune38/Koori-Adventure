@@ -1,13 +1,13 @@
 {
-  "fallback": "minecraft:empty",
+  "fallback": "empty",
   "elements": [
     {
       "weight": 10,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "kadventure:sand_straight",
-        "processors": "minecraft:empty"
+        "location": "kadventure:sand/sand_straight",
+        "processors": "kadventure:barrel_loot"
       }
     },
     {
@@ -15,8 +15,8 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "kadventure:sand_corner",
-        "processors": "minecraft:empty"
+        "location": "kadventure:sand/sand_corner",
+        "processors": "kadventure:barrel_loot"
       }
     },
     {
@@ -24,8 +24,8 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "kadventure:sand_4ways",
-        "processors": "minecraft:empty"
+        "location": "kadventure:sand/sand_4ways",
+        "processors": "kadventure:barrel_loot"
       }
     },
     {
@@ -33,8 +33,8 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "kadventure:sand_double",
-        "processors": "minecraft:empty"
+        "location": "kadventure:sand/sand_double",
+        "processors": "kadventure:barrel_loot"
       }
     },
     {
@@ -42,8 +42,8 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "kadventure:sand_to_plains",
-        "processors": "minecraft:empty"
+        "location": "kadventure:transition/sand_to_plains",
+        "processors": "kadventure:barrel_loot"
       }
     },
     {
@@ -52,7 +52,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "kadventure:castle/castle",
-        "processors": "minecraft:empty"
+        "processors": "kadventure:barrel_loot"
       }
     }
   ]
