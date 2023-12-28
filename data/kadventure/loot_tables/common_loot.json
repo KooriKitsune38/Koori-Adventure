@@ -83,7 +83,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{CanDestroy:[\"suspicious_sand\",\"suspicious_gravel\"]}"
+              "tag": "{CanPlaceOn:[\"suspicious_sand\",\"suspicious_gravel\"]}"
             }
           ]
         },
