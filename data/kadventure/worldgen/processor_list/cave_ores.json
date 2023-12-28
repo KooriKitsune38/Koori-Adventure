@@ -1,0 +1,87 @@
+{
+    "processors": [
+      {
+        "processor_type": "minecraft:rule",
+        "rules": [
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_block_match",
+              "block": "minecraft:dead_tube_coral_block",
+              "probability": 0.25
+            },
+            "output_state": {
+              "Name": "minecraft:coal_ore"
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_block_match",
+              "block": "minecraft:dead_tube_coral_block",
+              "probability": 0.1
+            },
+            "output_state": {
+              "Name": "minecraft:iron_ore"
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_block_match",
+              "block": "minecraft:dead_tube_coral_block",
+              "probability": 0.05
+            },
+            "output_state": {
+              "Name": "minecraft:lapis_ore"
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_block_match",
+              "block": "minecraft:dead_tube_coral_block",
+              "probability": 0.1
+            },
+            "output_state": {
+              "Name": "minecraft:gold_ore"
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_block_match",
+              "block": "minecraft:dead_tube_coral_block",
+              "probability": 0.01
+            },
+            "output_state": {
+              "Name": "minecraft:diamond_ore"
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:dead_tube_coral_block"
+            },
+            "output_state": {
+              "Name": "minecraft:tuff"
+            }
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -63,6 +63,15 @@
         "location": "kadventure:plains_cave_lake",
         "processors": "minecraft:empty"
       }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "kadventure:resources/plains_wood",
+        "processors": "minecraft:empty"
+      }
     }
   ]
 }

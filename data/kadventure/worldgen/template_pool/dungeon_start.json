@@ -18,6 +18,15 @@
           "location": "kadventure:sand_4ways",
           "processors": "minecraft:empty"
         }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "kadventure:cave_4ways",
+          "processors": "minecraft:empty"
+        }
       }
     ]
   }
