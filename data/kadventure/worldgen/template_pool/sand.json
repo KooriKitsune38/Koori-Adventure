@@ -47,6 +47,15 @@
       }
     },
     {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "kadventure:resources/sand_pen",
+        "processors": "kadventure:sand_loots"
+      }
+    },
+    {
       "weight": 2,
       "element": {
         "element_type": "minecraft:single_pool_element",
