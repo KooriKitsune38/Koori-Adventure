@@ -9,15 +9,12 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
+            "weight": 10,
             "name": "kadventure:coin"
-          }
-        ]
-      },
-      {
-        "rolls": 1,
-        "entries": [
+          },
           {
             "type": "minecraft:item",
+            "weight": 2,
             "name": "minecraft:pufferfish",
             "functions": [
               {
@@ -31,17 +28,10 @@
                 "chance": 0.3
               }
             ]
-          }
-        ]
-      },
-      {
-        "rolls": {
-          "min": 1,
-          "max": 2
-        },
-        "entries": [
+          },
           {
             "type": "minecraft:item",
+            "weight": 6,
             "name": "minecraft:bone",
             "functions": [
               {
@@ -55,6 +45,7 @@
           },
           {
             "type": "minecraft:item",
+            "weight": 6,
             "name": "minecraft:string",
             "functions": [
               {
@@ -68,6 +59,7 @@
           },
           {
             "type": "minecraft:item",
+            "weight": 8,
             "name": "minecraft:raw_gold",
             "functions": [
               {
@@ -76,6 +68,17 @@
                   "min": 2,
                   "max": 6
                 }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:netherite_scrap",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 1
               }
             ]
           }
