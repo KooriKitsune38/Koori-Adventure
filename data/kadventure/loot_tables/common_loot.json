@@ -79,7 +79,13 @@
         {
           "type": "minecraft:item",
           "weight": 3,
-          "name": "minecraft:brush"
+          "name": "minecraft:brush",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{CanDestroy:[\"suspicious_sand\",\"suspicious_gravel\"]}"
+            }
+          ]
         },
         {
           "type": "minecraft:item",
