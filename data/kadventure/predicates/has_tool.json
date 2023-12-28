@@ -1,0 +1,13 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "reference",
+            "name": "kadventure:has_pickaxe"
+        },
+        {
+            "condition": "reference",
+            "name": "kadventure:has_axe"
+        }
+    ]
+}
