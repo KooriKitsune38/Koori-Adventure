@@ -36,8 +36,8 @@
     {
       "rolls": {
         "type": "minecraft:uniform",
-        "min": 3,
-        "max": 5
+        "min": 1,
+        "max": 2
       },
       "bonus_rolls": 0,
       "entries": [
@@ -58,91 +58,37 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
-          "name": "minecraft:stone_sword",
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 12
-              }
-            }
-          ]
+          "weight": 3,
+          "name": "minecraft:wooden_sword"
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
-          "name": "minecraft:bow",
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 12
-              }
-            }
-          ]
+          "weight": 3,
+          "name": "minecraft:shield"
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
-          "name": "minecraft:leather_chestplate",
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 12
-              }
-            }
-          ]
+          "weight": 3,
+          "name": "minecraft:shield"
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
-          "name": "minecraft:leather_helmet",
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 12
-              }
-            }
-          ]
+          "weight": 3,
+          "name": "minecraft:spyglass"
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
-          "name": "minecraft:leather_leggings",
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 12
-              }
-            }
-          ]
+          "weight": 3,
+          "name": "minecraft:brush"
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
-          "name": "minecraft:leather_boots",
+          "weight": 3,
+          "name": "minecraft:goat_horn",
           "functions": [
             {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 12
-              }
+              "function": "set_nbt",
+              "tag":"{instrument:\"minecraft:dream_goat_horn\"}"
             }
           ]
         }
@@ -156,6 +102,7 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "weight": 10,
           "name": "minecraft:cookie",
           "functions": [
             {
@@ -166,13 +113,44 @@
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "minecraft:carrot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "set_potion",
+              "id":"regeneration"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "random_chance",
+          "chance": 0.7
         }
       ]
     },
     {
       "rolls": {
         "min": 0,
-        "max": 2
+        "max": 1
       },
       "entries": [
         {
