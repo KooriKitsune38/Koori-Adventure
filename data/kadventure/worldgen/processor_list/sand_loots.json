@@ -28,8 +28,8 @@
                         "Name": "suspicious_sand"
                     },
                     "block_entity_modifier": {
-                        "type": "append_loot",
-                        "loot_table": "kadventure:suspicious_sand"
+                        "type": "append_static",
+                        "data": {"LootTable":["kadventure:suspicious_sand"]}
                     }
                 }
             ]
