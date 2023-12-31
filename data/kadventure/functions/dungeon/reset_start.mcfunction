@@ -1,8 +1,8 @@
 #> kadventure:dungeon/reset_start
 
 # Clear Dungeon
+kill @e[tag=ka.Entity,tag=!ka.Center]
 execute as @e[type=marker,tag=ka.Center] at @s run function kadventure:dungeon/clear_rooms
-kill @e[tag=ka.Entity]
 
 # Summon Offset, and offset
 execute at @e[type=marker,tag=ka.DungeonPosition,limit=1] run summon marker ~ ~ ~ {Tags:[ka.Offset]}
