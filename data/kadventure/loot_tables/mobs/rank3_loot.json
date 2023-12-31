@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+      {
+        "rolls": 2,
+        "entries": [
+            {
+                "type": "loot_table",
+                "name": "kadventure:coin"
+            }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+            {
+                "type": "loot_table",
+                "name": "kadventure:treasures"
+            }
+        ],
+        "conditions": [
+            {
+                "condition": "random_chance",
+                "chance": 0.08
+            }
+        ]
+      }
+    ]
+  }
+  
