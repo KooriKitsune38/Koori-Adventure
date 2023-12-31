@@ -14,7 +14,3 @@
     #> Slime
         execute if predicate kadventure:c50 run summon slime ~ ~ ~ {Tags:[ka.MobRank1,ka.Entity,ka.Mob],Size:1}
         execute if predicate kadventure:c20 run summon slime ~ ~ ~ {Tags:[ka.MobRank1,ka.Entity,ka.Mob],Size:1}
-
-# Animals
-    #> If Plains
-    execute if entity @s[tag=ka.Plains] run function kadventure:mobs/summon_animals
