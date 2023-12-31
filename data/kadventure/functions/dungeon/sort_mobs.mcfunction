@@ -15,4 +15,4 @@ execute if score .mobsCount ka.Values matches ..20 if entity @s[predicate=kadven
 
 # Animals
     #> If Plains
-    execute if score .animalsCount ka.Values matches ..20 if entity @s[tag=ka.Plains] run function kadventure:mobs/summon_animals
+    #execute if score .animalsCount ka.Values matches ..20 if entity @s[tag=ka.Plains] run function kadventure:mobs/summon_animals
