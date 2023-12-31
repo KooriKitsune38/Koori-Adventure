@@ -60,7 +60,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "kadventure:cave/cave_to_plains",
+        "location": "kadventure:transition/cave_to_plains",
         "processors": "kadventure:barrel_loot"
       }
     }
