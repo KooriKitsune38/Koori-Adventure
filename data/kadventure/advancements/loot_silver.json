@@ -1,20 +1,20 @@
 {
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:player_interacted_with_entity",
-        "conditions": {
-          "item": {
-            "nbt": "{ka.Treasure:\"silver\"}"
-          },
-          "entity": {
-            "type": "minecraft:interaction",
-            "nbt": "{Tags:[\"ka.TreasureChest\"]}"
-          }
+  "parent": "kadventure:loots",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "nbt": "{ka.Treasure:\"silver\"}"
+        },
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[\"ka.TreasureChest\"]}"
         }
       }
-    },
-    "rewards": {
-        "function": "kadventure:treasure/loot_silver"
     }
+  },
+  "rewards": {
+    "function": "kadventure:treasure/loot_silver"
   }
-  
+}

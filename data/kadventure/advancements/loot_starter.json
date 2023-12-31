@@ -5,7 +5,7 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "item": {
-          "nbt": "{ka.Treasure:\"bronze\"}"
+          "nbt": "{ka.Treasure:\"starter\"}"
         },
         "entity": {
           "type": "minecraft:interaction",
@@ -15,6 +15,6 @@
     }
   },
   "rewards": {
-    "function": "kadventure:treasure/loot_bronze"
+    "function": "kadventure:treasure/loot_starter"
   }
 }
