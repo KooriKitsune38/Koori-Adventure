@@ -1,5 +1,8 @@
 #> kadventure:mobs/rank1_mobs
 
+# Name
+data merge entity @s {CustomNameVisible:1b,CustomName:'{"text":"[Lvl 1]","color": "green"}'}
+
 # Attribute
 #> Health
 attribute @s generic.max_health base set 10

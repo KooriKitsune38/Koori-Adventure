@@ -51,8 +51,8 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "kadventure:resources/cave_ores",
-        "processors": "kadventure:cave_ores"
+        "location": "kadventure:transition/cave_to_plains",
+        "processors": "kadventure:barrel_loot"
       }
     },
     {
@@ -60,8 +60,8 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "kadventure:transition/cave_to_plains",
-        "processors": "kadventure:barrel_loot"
+        "location": "kadventure:resources/cave_ores",
+        "processors": "kadventure:cave_ores"
       }
     }
   ]

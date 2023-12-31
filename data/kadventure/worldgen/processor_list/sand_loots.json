@@ -14,22 +14,10 @@
                     },
                     "output_state": {
                         "Name": "suspicious_sand"
-                    }
-                },
-                {
-                    "location_predicate": {
-                        "predicate_type": "always_true"
-                    },
-                    "input_predicate": {
-                        "predicate_type": "block_match",
-                        "block": "suspicious_sand"
-                    },
-                    "output_state": {
-                        "Name": "suspicious_sand"
                     },
                     "block_entity_modifier": {
-                        "type": "append_static",
-                        "data": {"LootTable":["kadventure:suspicious_sand"]}
+                        "type": "append_loot",
+                        "loot_table": "kadventure:suspicious_sand"
                     }
                 }
             ]

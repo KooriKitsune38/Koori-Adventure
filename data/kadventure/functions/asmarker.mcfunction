@@ -17,4 +17,4 @@ execute if entity @s[tag=ka.caveLake] run function kadventure:dungeon/cave_lake
 
 # Mobs
 execute store result score .entityCount ka.Values if entity @e[tag=ka.Mob]
-execute if score .mobsEnabled ka.Values matches 1 if score .entityCount ka.Values matches ..10 as @e[type=marker,tag=ka.Center,tag=!ka.NoMobCenter,predicate=kadventure:c20] at @s unless entity @p[distance=..10] run function kadventure:dungeon/sort_mobs
+execute if score .mobsEnabled ka.Values matches 1 if score .entityCount ka.Values matches ..20 as @e[type=marker,tag=ka.Center,tag=!ka.NoMobCenter,predicate=kadventure:c30] at @s unless entity @p[distance=..10] run function kadventure:dungeon/sort_mobs
