@@ -59,17 +59,7 @@
         {
           "type": "minecraft:item",
           "weight": 3,
-          "name": "minecraft:wooden_sword"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 3,
-          "name": "minecraft:shield"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 3,
-          "name": "minecraft:shield"
+          "name": "minecraft:stone_sword"
         },
         {
           "type": "minecraft:item",
@@ -89,7 +79,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
+          "weight": 2,
           "name": "minecraft:goat_horn",
           "functions": [
             {
