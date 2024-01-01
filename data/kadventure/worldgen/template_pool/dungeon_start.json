@@ -18,15 +18,6 @@
           "location": "kadventure:sand/sand_4ways",
           "processors": "kadventure:barrel_loot"
         }
-      },
-      {
-        "weight": 4,
-        "element": {
-          "element_type": "minecraft:single_pool_element",
-          "projection": "rigid",
-          "location": "kadventure:cave/cave_4ways",
-          "processors": "kadventure:barrel_loot"
-        }
       }
     ]
   }

@@ -1,0 +1,16 @@
+{
+    "parent": "kadventure:interaction",
+    "criteria": {
+        "interaction":{
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "nbt":"{Tags:[ka.BrokenElevator]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "kadventure:dungeon/elevator/broken_elevator"
+    }
+}

@@ -1,7 +1,7 @@
 #> kadventure:treasure/loot_silver
 
 # Retrieve
-advancement revoke @s from kadventure:loots
+advancement revoke @s from kadventure:interaction
 
 # Give loot
 loot give @s loot kadventure:treasure/silver_loot
