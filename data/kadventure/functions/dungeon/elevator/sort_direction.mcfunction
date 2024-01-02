@@ -2,6 +2,6 @@
 
 # Sort Tags
     #> Go down
-    execute if entity @s[tag=ka.ElevatorUp] run function kadventure:dungeon/elevator/go_down
+    execute if entity @e[tag=ka.ElevatorTop,distance=..1] run function kadventure:dungeon/elevator/go_down
     #> Go up
-    execute if entity @s[tag=ka.ElevatorDown,tag=!ka.ElevatorMove] run function kadventure:dungeon/elevator/go_up
+    execute if entity @e[tag=ka.ElevatorBottom,distance=..1] if entity @s[tag=!ka.ElevatorMove] run function kadventure:dungeon/elevator/go_up

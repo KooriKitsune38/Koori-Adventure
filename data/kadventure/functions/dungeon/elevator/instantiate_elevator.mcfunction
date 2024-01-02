@@ -9,11 +9,9 @@
 # Summon Elevator
     summon block_display ~ ~ ~ {Tags:[ka.Entity,ka.Elevator,ka.ElevatorUp,ka.ElevatorMove],block_state:{Name:"minecraft:stripped_dark_oak_log"},width:3f,height:1f,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-1.5f,0f,-1.5f],scale:[3f,0.5f,3f]},}
 
-# Remove Barrier
-    fill ~-3 ~-1 ~-3 ~3 1 ~3 air replace barrier
-
-# Kill Self
-    kill @s
+# Kill
+    execute as @e[type=interaction,tag=ka.BrokenElevator,dx=0,dz=0,dy=10] at @s run function kadventure:dungeon/elevator/kill_repairs
+    execute as @e[type=interaction,tag=ka.BrokenElevator,dx=0,dz=0,dy=-10] at @s run function kadventure:dungeon/elevator/kill_repairs
 
 # Remove amount required from player
     $clear @p[tag=.temp] #planks $(requiredAmount)
