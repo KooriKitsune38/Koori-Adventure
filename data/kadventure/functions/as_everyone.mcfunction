@@ -3,7 +3,7 @@
 # Y Level
 execute store result score .playerY ka.Values run data get entity @s Pos[1]
 execute if score .playerY ka.Values matches ..-30 run function kadventure:leave
-execute if score .playerY ka.Values = .yLevelSpawn ka.Values run function kadventure:leave
+execute if score .playerY ka.Values = .yLevelStart ka.Values run function kadventure:leave
 
 # Tools
 execute if predicate kadventure:has_tool run function kadventure:player/sort_tool
