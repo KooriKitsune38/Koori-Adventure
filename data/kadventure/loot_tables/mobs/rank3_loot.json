@@ -15,13 +15,13 @@
         "entries": [
             {
                 "type": "loot_table",
-                "name": "kadventure:treasures"
+                "name": "kadventure:better_treasures"
             }
         ],
         "conditions": [
             {
                 "condition": "random_chance",
-                "chance": 0.08
+                "chance": 0.15
             }
         ]
       }
