@@ -27,7 +27,7 @@
 
 # Storages
     #> Variables
-    data merge storage kadventure:variables {requiredAmount:0,loot_table:""}
+    data merge storage kadventure:variables {requiredAmount:0,loot_table:"",coinsRequired:0,sellItem:{},errorCode:0}
 
 # Tellraw
 tellraw @a {"text":"Koori Adventures","color": "lime"}

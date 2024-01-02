@@ -21,6 +21,9 @@
     #> Kill Small Slimes
     execute as @e[type=slime,nbt={Size:0}] run function kadventure:mobs/kill_no_loot
 
+    #> Reset interactions
+    execute as @e[type=interaction] run data remove entity @s interaction
+
 # Scoreboard
     #> Reset Dungeon
     scoreboard players add .resetTimer ka.Values 1

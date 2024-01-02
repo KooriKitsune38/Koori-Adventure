@@ -16,7 +16,7 @@
     
         #> As interaction if player has required resources
         execute store success score .success ka.Values if score .playerResources ka.Values >= .resourcesRequired ka.Values
-        execute if score .success ka.Values matches 1 as @e[type=interaction,tag=ka.BrokenElevator] at @s run function kadventure:dungeon/elevator/sort_interaction
+        execute if score .success ka.Values matches 1 as @e[type=interaction,tag=ka.BrokenElevator] at @s run function kadventure:sort_interaction {function:"kadventure:dungeon/elevator/instantiate_elevator with storage kadventure:variables"}
     
     #> Remove Tag
     tag @s remove .temp
