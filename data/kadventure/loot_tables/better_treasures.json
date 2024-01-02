@@ -8,17 +8,17 @@
           {
             "type": "minecraft:loot_table",
             "weight": 50,
-            "name": "kadventure:treasure/bronze"
+            "name": "kadventure:collectibles/items/bronze"
           },
           {
             "type": "minecraft:loot_table",
             "weight": 20,
-            "name": "kadventure:treasure/silver"
+            "name": "kadventure:collectibles/items/silver"
           },
           {
             "type": "minecraft:loot_table",
             "weight": 2,
-            "name": "kadventure:treasure/gold"
+            "name": "kadventure:collectibles/items/gold"
           }
         ]
       }

@@ -1,0 +1,20 @@
+{
+    "parent": "kadventure:interaction",
+    "criteria": {
+        "requirement": {
+          "trigger": "minecraft:player_interacted_with_entity",
+          "conditions": {
+            "item": {
+              "nbt": "{ka.Collectible:true}"
+            },
+            "entity": {
+              "type": "minecraft:interaction",
+              "nbt": "{Tags:[\"ka.Collector\"]}"
+            }
+          }
+        }
+      },
+      "rewards": {
+        "function": "kadventure:collectibles/sort_collectible"
+      }
+}

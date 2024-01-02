@@ -15,7 +15,7 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "name": "kadventure:treasure/bronze"
+            "name": "kadventure:collectibles/items/bronze"
           }
         ],
         "conditions": [

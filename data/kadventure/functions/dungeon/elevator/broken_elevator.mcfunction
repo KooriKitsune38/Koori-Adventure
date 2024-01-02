@@ -6,7 +6,7 @@
     #> Store player resources
     execute store result score .playerResources ka.Values run clear @s #planks 0
     #> Transfer required resources into storage
-    execute store result storage kadventure:repair requiredAmount int 1 run scoreboard players get .resourcesRequired ka.Values
+    execute store result storage kadventure:variables requiredAmount int 1 run scoreboard players get .resourcesRequired ka.Values
 
 # Summon Marker
     #> Tag player

@@ -22,8 +22,8 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Gold Treasure",
-                "color": "yellow",
+                "text": "Bronze Treasure",
+                "color": "gold",
                 "italic": false
               }
             },
@@ -33,7 +33,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ka.Treasure:\"gold\",SkullOwner:{Id:[I;-147479404,-959430528,-1361091894,-335278496],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzNiZGJhZWRkN2Q2NDQ0ZTc5YWE4MjIyZjg5ODEyNDAyMDRjYzNjYzFjOTY1NTExODY4NzYxOGRiOGNlYyJ9fX0=\"}]}}}"
+              "tag": "{ka.Collectible:true,ka.LootPath:\"bronze_loot\",SkullOwner:{Id:[I;-1524374319,1069172826,-1948113560,-1650649038],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2YxOWJkZmRmYWEzOTk0OWRhMDY2N2Y0YTg5ZjM2NDI2YmE4NjkyYWVmNTFmYzYwNTFhOTgwMjMyN2RhNyJ9fX0=\"}]}}}"
             }
           ]
         }

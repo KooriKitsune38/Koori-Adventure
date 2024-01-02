@@ -26,8 +26,8 @@
     team modify ka.Arena friendlyFire true
 
 # Storages
-    #> Repair
-    data merge storage kadventure:repair {requiredAmount:0}
+    #> Variables
+    data merge storage kadventure:variables {requiredAmount:0,loot_table:""}
 
 # Tellraw
 tellraw @a {"text":"Koori Adventures","color": "lime"}
