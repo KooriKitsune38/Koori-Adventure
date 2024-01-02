@@ -17,4 +17,4 @@ effect give @s regeneration 1 255 true
 gamemode adventure @s
 
 # Tp
-execute at @e[type=marker,tag=ka.Center,limit=1,sort=random,predicate=!kadventure:no_join] run function kadventure:dungeon/join_marker
+execute at @e[type=marker,tag=ka.Center,limit=1,sort=random,predicate=!kadventure:no_join] if predicate kadventure:rank1_room run function kadventure:dungeon/join_marker
