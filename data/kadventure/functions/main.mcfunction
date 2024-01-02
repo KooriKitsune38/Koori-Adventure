@@ -10,7 +10,7 @@
     execute as @a at @s run function kadventure:as_everyone
 
     #> As Mobs
-    execute as @e[tag=ka.Mob] run function kadventure:mobs/sort_mob_rank
+    #execute as @e[tag=ka.Mob] run function kadventure:mobs/sort_mob_rank
 
     #> As Stands
     execute as @e[type=armor_stand] run function kadventure:as_stand

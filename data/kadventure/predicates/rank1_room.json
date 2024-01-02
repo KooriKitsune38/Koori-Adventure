@@ -14,6 +14,13 @@
             "predicate": {
                 "nbt":"{Tags:[ka.Plains]}"
             }
+        },
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "nbt":"{Tags:[ka.Sakura]}"
+            }
         }
     ]
 }

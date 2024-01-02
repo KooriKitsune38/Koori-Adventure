@@ -13,4 +13,4 @@ execute if entity @s[tag=ka.ArenaGate] as @a[distance=..5] positioned as @s if b
 execute if entity @s[tag=ka.caveLake] run function kadventure:dungeon/cave_lake
 
 # Mobs
-execute if score .mobsEnabled ka.Values matches 1 if entity @s[tag=ka.Center,tag=!ka.NoMobCenter,predicate=kadventure:c50] unless entity @p[distance=..10] run function kadventure:dungeon/sort_mobs
+execute if score .mobsEnabled ka.Values matches 1 if entity @s[tag=ka.Center,tag=!ka.NoMobCenter,predicate=kadventure:c30] unless entity @p[distance=..10] run function kadventure:dungeon/sort_mobs

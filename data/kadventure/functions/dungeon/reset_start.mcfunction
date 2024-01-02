@@ -14,6 +14,11 @@ execute at @e[type=marker,tag=ka.Offset,limit=1] positioned ~ ~ ~ run place stru
 # Kill Offset
 kill @e[type=marker,tag=ka.Offset]
 
+# Store Scoreboard rooms
+execute store result score .rank1Rooms ka.Values if entity @e[type=marker,tag=ka.Center,predicate=kadventure:rank1_room]
+execute store result score .rank2Rooms ka.Values if entity @e[type=marker,tag=ka.Center,predicate=kadventure:rank2_room]
+execute store result score .rank3Rooms ka.Values if entity @e[type=marker,tag=ka.Center,predicate=kadventure:rank3_room]
+
 # Tp to Spawn
 execute as @a[tag=ka.Playing,predicate=!kbosses:around_boss] at @s run function kadventure:leave
 

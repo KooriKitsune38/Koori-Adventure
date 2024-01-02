@@ -6,16 +6,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "kadventure:cave/cave_straight",
-        "processors": "kadventure:barrel_loot"
-      }
-    },
-    {
-      "weight": 4,
-      "element": {
-        "element_type": "minecraft:single_pool_element",
-        "projection": "rigid",
-        "location": "kadventure:cave/cave_to_plains",
+        "location": "kadventure:sakura/sakura_straight",
         "processors": "kadventure:barrel_loot"
       }
     },
@@ -24,7 +15,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "kadventure:cave/cave_corner",
+        "location": "kadventure:sakura/sakura_corner",
         "processors": "kadventure:barrel_loot"
       }
     },
@@ -33,7 +24,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "kadventure:cave/cave_double",
+        "location": "kadventure:sakura/sakura_4ways",
         "processors": "kadventure:barrel_loot"
       }
     },
@@ -42,16 +33,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "kadventure:cave/cave_4ways",
-        "processors": "kadventure:barrel_loot"
-      }
-    },
-    {
-      "weight": 4,
-      "element": {
-        "element_type": "minecraft:single_pool_element",
-        "projection": "rigid",
-        "location": "kadventure:transition/cave_to_plains",
+        "location": "kadventure:sakura/sakura_double",
         "processors": "kadventure:barrel_loot"
       }
     },
@@ -65,12 +47,12 @@
       }
     },
     {
-      "weight": 3,
+      "weight": 4,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "kadventure:resources/cave_ores",
-        "processors": "kadventure:cave_ores"
+        "location": "kadventure:resources/plains_wood",
+        "processors": "kadventure:barrel_loot"
       }
     }
   ]
