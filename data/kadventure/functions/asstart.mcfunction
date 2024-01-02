@@ -13,3 +13,9 @@ kill @e[type=vex,distance=..30]
 
 # Spawnpoint
 spawnpoint @a[distance=..20] ~ ~ ~
+
+
+# Tp if too low
+scoreboard players set .ySpawnOffset ka.Values 50
+execute store result score .yLevelStart ka.Values run data get entity @s Pos[1]
+scoreboard players operation .yLevelSpawn ka.Values -= .ySpawnOffset ka.Values
