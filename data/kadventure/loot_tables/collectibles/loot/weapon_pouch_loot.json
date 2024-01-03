@@ -4,68 +4,53 @@
     {
       "rolls": {
         "min": 1,
-        "max": 4
+        "max": 2
       },
       "entries": [
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "minecraft:diamond_helmet"
+          "name": "minecraft:trident"
         },
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "minecraft:diamond_chestplate"
+          "name": "minecraft:diamond_axe"
         },
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "minecraft:diamond_leggings"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:diamond_boots"
+          "name": "minecraft:diamond_sword"
         },
         {
           "type": "minecraft:item",
           "weight": 8,
-          "name": "minecraft:iron_helmet"
+          "name": "minecraft:iron_axe"
         },
         {
           "type": "minecraft:item",
           "weight": 8,
-          "name": "minecraft:iron_chestplate"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 8,
-          "name": "minecraft:iron_leggings"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 8,
-          "name": "minecraft:iron_boots"
+          "name": "minecraft:iron_sword"
         },
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "minecraft:leather_helmet"
+          "name": "minecraft:crossbow"
         },
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "minecraft:leather_chestplate"
+          "name": "minecraft:bow"
         },
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "minecraft:leather_leggings"
+          "name": "minecraft:stone_axe"
         },
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "minecraft:leather_boots"
+          "name": "minecraft:stone_sword"
         }
       ],
       "functions": [
