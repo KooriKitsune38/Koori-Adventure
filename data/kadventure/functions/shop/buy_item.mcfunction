@@ -4,7 +4,7 @@
     $summon item ~ ~ ~ {Tags:[.temp],PickupDelay:0,Item:$(sellItem)}
 
 # Clear item
-    $clear @p[tag=.temp] sunflower{ka.Coin:1b} $(coinsRequired)
+    $clear @s sunflower{ka.Coin:1b} $(coinsRequired)
 
 # Sound & Particles
     playsound minecraft:ui.button.click ambient @a ~ ~ ~ 1 2

@@ -15,6 +15,8 @@ clear @s
     give @s bee_spawn_egg{display:{Name:'{"text": "Collector"}'},EntityTag:{id:"interaction",width:1f,height:1f,response:true,Tags:["ka.Collector"]}}
     #> Shopper
     give @s bee_spawn_egg{display:{Name:'{"text": "Shopper"}'},EntityTag:{id:"interaction",width:1.1f,height:1.1f,response:true,Tags:["ka.Shopper"]}}
+    #> Storage
+    give @s bee_spawn_egg{display:{Name:'{"text": "Storage"}'},EntityTag:{id:"interaction",width:1.1f,height:1.1f,response:true,Tags:["ka.Storage"]}}
     #> Bank
     give @s bee_spawn_egg{display:{Name:'{"text": "Bank"}'},EntityTag:{id:"interaction",width:1f,height:1f,response:true,Tags:["ka.Bank"],CustomNameVisible:1b,CustomName:'{"text":"Bank","color":"gold"}'}}
     #> Shop Display
