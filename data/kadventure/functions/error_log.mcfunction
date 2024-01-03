@@ -8,4 +8,4 @@
     $scoreboard players set .errorCode ka.Values $(errorCode)
         ## Code 1 : Resource
         $execute if score .errorCode ka.Values matches 1 run tellraw @s [{"text":"You need more ","color":"red"},{"text":"$(resourceName)","color":"dark_red"},{"text":" (","color":"red"},{"score":{"objective":"ka.Values","name":".playerResources"},"color":"red"},{"text":"/","color":"red"},{"score":{"objective":"ka.Values","name":".resourcesRequired"},"color":"red"},{"text":")","color":"red"}]
-        execute if score .errorCode ka.Values matches 2 run tellraw @s {"text": "Not enough money!","color": "red"}
+        execute if score .errorCode ka.Values matches 2 run tellraw @s {"text": "No more coins!","color": "red"}
