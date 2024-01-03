@@ -11,7 +11,7 @@
     execute unless score .mobsEnabled ka.Values matches 0..1 run scoreboard players set .mobsEnabled ka.Values 1
     scoreboard players set .bankDetract ka.Values 16
     scoreboard players set .bankDeposit ka.Values 16
-    scoreboard players set .storagePrice ka.Values 120
+    scoreboard players set .storagePrice ka.Values 320
 
 # Teams
     #> Playing
