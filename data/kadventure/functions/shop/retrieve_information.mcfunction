@@ -10,4 +10,4 @@
     data modify storage kadventure:variables sellItem set from entity @e[type=item_display,tag=ka.ShopDisplay,distance=..1,limit=1,sort=nearest] item
 
 # Check requirements
-execute as @p[tag=.temp] at @s run function kadventure:shop/check_requirements
+execute on target at @s run function kadventure:shop/check_requirements

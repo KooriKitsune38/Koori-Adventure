@@ -9,7 +9,7 @@
 
 # Retrieve UUID
 #> Player
-    execute on origin store result score .playerUUID kw.BowCharge run data get entity @s UUID[0]
+    execute store result score .playerUUID kw.BowCharge run data get entity @s UUID[0]
 
 # Retrieve arrow
 execute as @e[type=arrow] at @s run function kweapons:bow/retrieve_arrow
