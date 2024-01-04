@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "trigger":{
+            "trigger": "using_item",
+            "conditions": {
+                "item":{
+                    "items": [
+                        "bow"
+                    ],
+                    "nbt": "{kw.Bow:1b}"
+                }
+            }
+        }
+    },
+    "rewards":{
+        "function": "kweapons:bow/used_bow"
+    }
+}

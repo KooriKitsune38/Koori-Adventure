@@ -1,0 +1,23 @@
+{
+    "values": [
+        "marker",
+        "interaction",
+        "armor_stand",
+        "item_frame",
+        "item_display",
+        "block_display",
+        "text_display",
+        "#arrows",
+        "item",
+        "leash_knot",
+        "wither_skull",
+        "fireball",
+        "small_fireball",
+        "dragon_fireball",
+        "firework_rocket",
+        "experience_orb",
+        "potion",
+        "experience_bottle",
+        "lightning_bolt"
+    ]
+}
