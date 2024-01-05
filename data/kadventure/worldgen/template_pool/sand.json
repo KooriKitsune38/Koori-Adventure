@@ -7,7 +7,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "kadventure:sand/sand_straight",
-        "processors": "kadventure:sand_loots"
+        "processors": "kadventure:sand_processor"
       }
     },
     {
@@ -16,7 +16,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "kadventure:sand/sand_corner",
-        "processors": "kadventure:sand_loots"
+        "processors": "kadventure:sand_processor"
       }
     },
     {
@@ -25,7 +25,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "kadventure:sand/sand_4ways",
-        "processors": "kadventure:sand_loots"
+        "processors": "kadventure:sand_processor"
       }
     },
     {
@@ -34,7 +34,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "kadventure:sand/sand_double",
-        "processors": "kadventure:sand_loots"
+        "processors": "kadventure:sand_processor"
       }
     },
     {
@@ -43,7 +43,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "kadventure:transition/sand_to_plains",
-        "processors": "kadventure:sand_loots"
+        "processors": "kadventure:sand_processor"
       }
     },
     {
@@ -52,7 +52,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "kadventure:resources/sand_pen",
-        "processors": "kadventure:sand_loots"
+        "processors": "kadventure:sand_processor"
       }
     },
     {
@@ -61,7 +61,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "kadventure:castle/castle",
-        "processors": "kadventure:sand_loots"
+        "processors": "kadventure:sand_processor"
       }
     }
   ]

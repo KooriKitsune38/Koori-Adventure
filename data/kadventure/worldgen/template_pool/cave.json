@@ -7,7 +7,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "kadventure:cave/cave_straight",
-        "processors": "kadventure:barrel_loot"
+        "processors": "kadventure:cave_processor"
       }
     },
     {
@@ -16,7 +16,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "kadventure:cave/cave_to_plains",
-        "processors": "kadventure:barrel_loot"
+        "processors": "kadventure:cave_processor"
       }
     },
     {
@@ -25,7 +25,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "kadventure:cave/cave_corner",
-        "processors": "kadventure:barrel_loot"
+        "processors": "kadventure:cave_processor"
       }
     },
     {
@@ -34,7 +34,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "kadventure:cave/cave_double",
-        "processors": "kadventure:barrel_loot"
+        "processors": "kadventure:cave_processor"
       }
     },
     {
@@ -43,7 +43,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "kadventure:cave/cave_4ways",
-        "processors": "kadventure:barrel_loot"
+        "processors": "kadventure:cave_processor"
       }
     },
     {
@@ -51,17 +51,8 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "kadventure:transition/cave_to_plains",
-        "processors": "kadventure:barrel_loot"
-      }
-    },
-    {
-      "weight": 4,
-      "element": {
-        "element_type": "minecraft:single_pool_element",
-        "projection": "rigid",
-        "location": "kadventure:transition/cave_to_sakura",
-        "processors": "kadventure:barrel_loot"
+        "location": "kadventure:resources/cave_ores",
+        "processors": "kadventure:cave_ores"
       }
     },
     {
@@ -69,8 +60,17 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "kadventure:resources/cave_ores",
-        "processors": "kadventure:cave_ores"
+        "location": "kadventure:transition/cave_to_plains",
+        "processors": "kadventure:cave_processor"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "kadventure:transition/cave_to_sakura",
+        "processors": "kadventure:cave_processor"
       }
     }
   ]

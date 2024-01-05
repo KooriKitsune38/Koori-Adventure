@@ -1,0 +1,70 @@
+{
+    "processors": [
+      {
+        "processor_type": "minecraft:rule",
+        "rules": [
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_block_match",
+              "block": "minecraft:yellow_concrete",
+              "probability": 0.2
+            },
+            "output_state": {
+              "Name": "minecraft:stripped_oak_log",
+              "Properties": {
+                "axis": "y"
+              }
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:yellow_concrete"
+            },
+            "output_state": {
+              "Name": "minecraft:oak_log",
+              "Properties": {
+                "axis": "y"
+              }
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_block_match",
+              "block": "minecraft:barrel",
+              "probability": 0.6
+            },
+            "output_state": {
+              "Name": "minecraft:air"
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:barrel"
+            },
+            "output_state": {
+              "Name": "minecraft:barrel"
+            },
+            "block_entity_modifier": {
+              "type": "minecraft:append_loot",
+              "loot_table": "kadventure:common_loot"
+            }
+          }
+        ]
+      }
+    ]
+  }
+  

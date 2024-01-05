@@ -7,7 +7,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "kadventure:plains/plains_straight",
-        "processors": "kadventure:barrel_loot"
+        "processors": "kadventure:plains_processor"
       }
     },
     {
@@ -16,7 +16,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "kadventure:plains/plains_corner",
-        "processors": "kadventure:barrel_loot"
+        "processors": "kadventure:plains_processor"
       }
     },
     {
@@ -25,7 +25,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "kadventure:plains/plains_4ways",
-        "processors": "kadventure:barrel_loot"
+        "processors": "kadventure:plains_processor"
       }
     },
     {
@@ -34,7 +34,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "kadventure:plains/plains_double",
-        "processors": "kadventure:barrel_loot"
+        "processors": "kadventure:plains_processor"
       }
     },
     {
@@ -43,7 +43,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "kadventure:transition/sand_to_plains",
-        "processors": "kadventure:barrel_loot"
+        "processors": "kadventure:plains_processor"
       }
     },
     {
@@ -52,7 +52,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "kadventure:transition/cave_to_plains",
-        "processors": "kadventure:barrel_loot"
+        "processors": "kadventure:cave_processor"
       }
     },
     {
@@ -61,7 +61,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "kadventure:plains/plains_cave_lake",
-        "processors": "kadventure:barrel_loot"
+        "processors": "kadventure:plains_processor"
       }
     },
     {
@@ -70,7 +70,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "kadventure:resources/plains_wood",
-        "processors": "kadventure:barrel_loot"
+        "processors": "kadventure:plains_processor"
       }
     }
   ]

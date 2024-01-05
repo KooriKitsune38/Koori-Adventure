@@ -7,7 +7,7 @@
           "element_type": "minecraft:single_pool_element",
           "projection": "rigid",
           "location": "kadventure:plains/plains_4ways",
-          "processors": "kadventure:barrel_loot"
+          "processors": "kadventure:plains_processor"
         }
       },
       {
@@ -16,7 +16,7 @@
           "element_type": "minecraft:single_pool_element",
           "projection": "rigid",
           "location": "kadventure:sand/sand_4ways",
-          "processors": "kadventure:barrel_loot"
+          "processors": "kadventure:sand_processor"
         }
       },
       {
@@ -25,6 +25,15 @@
           "element_type": "minecraft:single_pool_element",
           "projection": "rigid",
           "location": "kadventure:sakura/sakura_4ways",
+          "processors": "kadventure:barrel_loot"
+        }
+      },
+      {
+        "weight": 3,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "kadventure:cave/cave_4ways",
           "processors": "kadventure:barrel_loot"
         }
       }

@@ -43,7 +43,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "kadventure:transition/cave_to_sakura",
-        "processors": "kadventure:barrel_loot"
+        "processors": "kadventure:cave_processor"
       }
     },
     {
@@ -51,7 +51,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "kadventure:resources/plains_wood",
+        "location": "kadventure:resources/sakura_wood",
         "processors": "kadventure:barrel_loot"
       }
     }
